@@ -17,12 +17,251 @@
             <div id="h2-flex">
                 <h2>Display Flex</h2>
             </div>
-            <div id="p-flex">
-                <p>
-
-                </p>
+            <div id="sub-flex">
+                <h2><b>CSS Flexbox Layout Module</b></h2>
             </div>
+            <article id="p-flex">
+                
+                <div>
+                    <p>Before the Flexbox Layout module, there were four loyaut modes</p>
+                    <ul>
+                        <li>Block, for sections in a webpage</li>
+                        <li>Inline, for text</li>
+                        <li>Table, for two-dimensional table data</li>
+                        <li>Positioned, for explicit position of an element</li>
+                    </ul>
+                    <p>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+                </div>
+                <div>
+                    <h2>NOTES</h2>
+                    <div>
+                        <dl>
+                            <dt>Cross Axis</dt>
+                                <dd>Eje y</dd>
+                            <dt>Main axis</dt>
+                                <dd>Eje X</dd>
+                        </dl>
+                        <p>Estos ejes son guia para las demás propiedades</p>
+                    </div>
+                </div>
+                <div>
+                    <h2>PROPIEDADES</h2>
+                    <div>
+                        <div>
+                            <div id="flex-direction">
+                                <h3>Flex-direction:</h3>
+                                <p>Permite manupular la forma en la que se va a mostrar los elementos apilados dentro de nuestro contenedor de flex.</p>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>row:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Valor por defecto. Apila nuestros elementos como si fuera una fila</p>
+                                        </dd>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Column:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Aplica estilos en forma de columnas.</p>
+                                        </dd>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Flow:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Permite unir las características de dos propiedades. Como por ejemplo "<b>flex-direction: Flow</b>: column grap;"</p>
+                                        </dd>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>-reverse:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Invierte el orden de los items de cualquier propiedad.</p>
+                                        </dd>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>wrap:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Permite a los elementos dar un salto de linea y ubicarse justo debajo de otro elemento creando una nueva fila para no alterar el tamaño de los items.</p>
+                                            <div>
+                                                <h2>no-wrap</h2>
+                                                <p>Sin wrap. Usualmente este valor viene por defecto.</p>
+                                            </div>
+                                        </dd>
+                                </dl>
+                            </div>
+                            <div id="justify-content">
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Flex-start:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                        <dd>
+                                            <p>Alínea elementos a la izquierda.</p>
+                                        </dd>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Flex-end:</b>
+                                            </li>
+                                        </ul>
+                                        <dd>
+                                            <p>Alínea elementos al a derecha</p>
+                                        </dd>
+                                    </dt>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Center:</b>
+                                            </li>
+                                        </ul>
+                                        <dd>
+                                            <p>Centra los elementos horizontalmente</p>
+                                        </dd>
+                                    </dt>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Space-around:</b>
+                                            </li>
+                                        </ul>
+                                        <dd>
+                                            <p>Agrega un espacio alrededor de los elementos</p>
+                                        </dd>
+                                    </dt>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Space-between</b>
+                                            </li>
+                                        </ul>
+                                        <dd>
+                                            <p>Agrega un espacio entre los elementos, mas sin embargo no entre el contenedor del elemento.
+                                            </p>
+                                        </dd>
+                                    </dt>
+                                    <dt>
+                                        <ul>
+                                            <li><b>Space-evely:</b></li>
+                                        </ul>
+                                        <dd>
+                                            <p>Agrega un espacio entre elemntos y entre el contenedor y los elementos del mismo tamaño</p>
+                                        </dd>
+                                    </dt>
+                                </dl>
+                            </div>
+                            <div id="aling-items">
+                                <h2>Aling-items</h2>
+                                <p>Alínea los elemntos en el eje Y.</p>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li><b>Flex-start:</b></li>
+                                        </ul>
+                                    </dt>
+                                    <dd>
+                                        <p>Valor por default. Alínea los elementos en top.</p>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Flex-end:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                    <dd>
+                                        <p>Alínea a los elementos en la parte de abajo.</p>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Center:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                    <dd>
+                                        <p>Establece un valor de <b>aling-self</b> sobre todos los desendientes directos de un grupo. Alínea los elementos en el centrod del eje Y.</p>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Strech:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                    <dd>
+                                        <p>Los lementos ocupan todo el alto de nuestro contenedor</p>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        <ul>
+                                            <li>
+                                                <b>Baseline:</b>
+                                            </li>
+                                        </ul>
+                                    </dt>
+                                    <dd>
+                                        <p>Alínea los elementos de tal forma que se comprimen al tamaño del texto y se disponen teniendo en cuenta la base de la línea inferior del texto. Esto provoca que todos los elementos (<i>así sean de distintos tamaños</i>), se posiciónen en funcion de la misma medida inicial, creando un orden, dentro del "caos".</p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div id="aling-content">
+                                <h2>aling-content</h2>
+                                <p>Esta propiedad, tiene dos requerimientos que se tienen que cumplir para dos requerimientos que se tienen que cumplir para que tenga efecots sobre nuestro contenedor:</p>
+                                <dl>
+                                    <dt>
+                                        <ol>
+                                            <li>Nuestro <b>Flex-flow</b> o <b>Flex-wrap</b> sea:
+                                                <dd><b>wrap o reverse-wrap</b></dd>
+                                            </li>
+                                            <li>Que sea multilínea</li>
+                                        </ol>
+                                        
+                                    </dt>
+                                    <dt>
+                                <ul>
+                                    <li>Flex-start</li>
+                                    <li>Flex-end</li>
+                                    <li>Strech</li>
+                                    <li>Space-between</li>
+                                    <li>Space-around</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
         </section>
+        GRID
         <section id="grid">
             <div id="h2-grid">
                 <h2></h2>
